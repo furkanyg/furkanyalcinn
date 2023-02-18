@@ -8,7 +8,7 @@
     <title>Furkan Yalçın </title>
     <link rel="stylesheet" href="style.css">
 
-</head>
+<head>
 <body>
 <script src="app.js"></script>
     <script></script>
