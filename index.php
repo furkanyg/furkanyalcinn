@@ -55,6 +55,6 @@
         <a class="footer-buttons" id="coffee"  href="https://www.buymeacoffee.com/furkanyalcinn">Buy me a coffee!</a>
         <a class="footer-buttons" id="linkedin" href="https://www.linkedin.com/in/furkan-yal%C3%A7%C4%B1n-a75b9423a/">Linkedin</a>
         <p id="furkan-yalcin">Furkan Yalçın | All Right Reserved. -2023-</p>
-</div>
-</body>
-</html>
+<div>
+<body>
+<html>
