@@ -24,7 +24,7 @@
                 <a href="#" onclick="Go()" id="goBtn" >Go!</a>
 
             <form>
-        </div>
+        <div>
         <div id="maindiv">
 
             <div id="start"><a id="start-button" onclick="start()">start</a></div>
