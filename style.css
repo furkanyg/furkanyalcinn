@@ -1,0 +1,228 @@
+/* All Rights Reserved by FURKAN YALÇIN, *2023* */
+/* imports */
+@import url('https://fonts.googleapis.com/css2?family=Mansalva&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tourney:ital,wght@1,600&display=swap');
+
+/* custom css codes */
+#back-arrow{
+    background-color: transparent;
+
+}
+
+html {
+    background: -webkit-linear-gradient(to right, rgba(0,255,214,1) 0%, rgba(0,159,255,1) 100%);  /* Chrome 10-25, Safari 5.1-6 */
+    background: rgb(0,255,214);
+    background: linear-gradient(90deg, rgba(0,255,214,1) 0%, rgba(0,159,255,1) 100%);
+    height: 100%;
+    background-attachment: fixed;
+
+}
+.but {
+    background-color: rgb(85, 85, 85);
+    width: 150px;
+    height: 150px;
+    margin: 5px;
+    display: inline-block;
+    border: 2px solid rgb(56, 47, 47);
+    border-radius: 20px;
+    justify-content: space-between;
+    cursor: pointer;
+    transition: 0.5s;
+    box-shadow: 0.5px 0.5px 30px rgb(223, 151, 151);
+    text-decoration: none;
+}
+#All {
+    top: 40px;
+    height: 500px;
+    margin: auto;
+    position: relative;
+}
+#back-button {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 10px 10px 10px 10px;
+    background: rgb(255, 255, 255);
+    display: inline-block;
+    position: fixed;
+    top: 10px;
+    border-radius: 60px;
+}
+#maindiv {
+    text-align: center;
+    position: relative;
+    top: 10px;
+}
+#game-name {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: 'Mansalva', cursive;
+    display: block;
+}
+.color-text {
+    font-size: 40px;
+    background-color: transparent;
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    position: relative;
+    top: 0px;
+}
+#wrong-answer {
+    opacity: 0;
+    margin: 0%;
+    padding: 0%;
+    position: relative;
+    transition: 1s;
+    margin-top: 20px;
+}
+#score {
+    width: 140px;
+    height: 40px;
+    background-color: aliceblue;
+    border: 2px solid rgb(56, 47, 47);
+    border-radius: 15px;
+    margin: auto;
+    position: relative;
+    left: 75px;
+    margin-bottom: 0%;
+
+}
+#time {
+    width: 140px;
+    height: 40px;
+    background-color: aliceblue;
+    border: 2px solid rgb(56, 47, 47);
+    border-radius: 15px;
+    margin: auto;
+    position: relative;
+    left: -75px;
+    top: 44px;
+    margin-bottom: 0%;
+
+}
+#time-text {
+    display: inline-block;
+    background-color: transparent;
+    position: relative;
+    left: 30px;
+    bottom: 5px;
+    font-family: 'Bebas Neue', cursive;
+}
+#score-text {
+    display: inline-block;
+    background-color: transparent;
+    position: relative;
+    left: 30px;
+    bottom: 5px;
+    font-family: 'Bebas Neue', cursive;
+}
+#footer {
+    position: fixed;
+    bottom: 25px;
+    display: block;
+    width: 100%;
+}
+
+#furkan-yalcin {
+    margin-top: 30px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+}
+
+#start-button {
+    font-size: 40px;
+    display: inline-block;
+    z-index: 50;
+    background: rgb(0,255,214);
+    background: linear-gradient(90deg, rgba(0,255,214,1) 0%, rgba(255,252,0,1) 100%);
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 20px 60px 20px 60px ;
+    color: black;
+    font-family: 'Bebas Neue', cursive;
+    margin-top: 40px;
+    text-align: center;
+    cursor: pointer;
+}
+#restart-button {
+    font-size: 40px;
+    display: inline-block;
+    z-index: 50;
+    background-color:red;
+    border-radius: 15px;
+    padding: 8px 16px 8px 16px;
+    color: black;
+    font-family: 'Bebas Neue', cursive;
+    margin-top: 0px;
+    text-align: center;
+    display: none;
+    cursor: pointer;
+}
+.footer-buttons {
+    color: rgb(0, 0, 0);
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-family:'Bebas Neue', cursive;
+    
+
+}
+#footerbut-div {
+    width: 100%;
+    text-align: center;
+    display: block;
+    position: fixed;
+    bottom: 0%;
+}
+#coffee {
+    background-color:yellow;
+    color: black;
+}
+#linkedin {
+    background-color: rgb(91, 206, 241);
+    color: white;
+    margin-left: 10px;
+}
+#formDiv {
+    position: fixed;
+    width: 300px;
+    height: 300px;
+    top: 200px;
+    z-index: 100;
+    left: 50%;
+    margin-top: -150px; /* Negative half of height. */
+    margin-left: -150px; /* Negative half of width. */
+    background: rgb(164,255,0);
+    background: linear-gradient(128deg, rgba(164,255,0,1) 0%, rgba(0,212,255,1) 80%);
+    border-radius: 20px;
+    border: solid 1px ;
+}
+#form {
+    text-align: center;
+    margin-top: 40%;
+}
+#goBtn {
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: black;
+    padding: 5px 15px 5px 15px ;
+    background-color: rgb(219, 255, 16);
+    border-radius: 5px;
+    font-family: 'Bebas Neue', cursive;
+}
+#inputText {
+    padding: 15px 30px 15px 30px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: 1s;
+}
+#inputText:focus {
+    background-color: lightblue;
+}
