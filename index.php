@@ -23,7 +23,7 @@
                 <input type="text" id="inputText" name="inputText" placeholder="Your name"><br>
                 <a href="#" onclick="Go()" id="goBtn" >Go!</a>
 
-            </form>
+            <form>
         </div>
         <div id="maindiv">
 
@@ -33,22 +33,22 @@
 
             <div class="but" id="button_1">
                 <p id="color-text-1" class="color-text">Blue</p>
-            </div>  
+            <div>  
 
             <div class="but" id="button_2">
                 <p id="color-text-2" class="color-text">Red</p>
-            </div><br>
+            <div><br>
 
             <div class="but" id="button_3">
                 <p id="color-text-3" class="color-text">Blue</p>
-            </div>  
+            <div>  
 
             <div class="but" id="button_4">
                 <p id="color-text-4" class="color-text">Red</p>
-            </div>
+            <div>
 
 
-        </div>
+        <div>
         
     </div>
     <div id="footerbut-div">
