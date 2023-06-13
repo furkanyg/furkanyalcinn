@@ -1,2 +1,2 @@
 # furkanyalcinn
-game made with php and js
+game was made with php and js
